@@ -72,6 +72,18 @@ export class DisplayTableComponent implements OnInit {
     })
   }
 
+  // delete product data methode
+    deleteProduct(id:number){
+      this.api.deleteProduct(id).subscribe({
+        next:(res)=>{
+          alert("product deleted Successfully");
+          this.getAllProducts();
+        },
+        error:()=>{
+          alert("Error while deleting the product..!!");
+        }
+      })
+    }
 
 
 
