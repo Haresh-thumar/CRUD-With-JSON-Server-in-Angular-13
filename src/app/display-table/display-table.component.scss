@@ -1,9 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+// for header text
 .table-heading-text {
   text-align: center;
-  font-size: 35px!important;
+  font-size: 35px !important;
   font-weight: bold;
   color: rgb(46, 5, 157);
-  font-family: 'Philosopher', sans-serif;
+  font-family: "Philosopher", sans-serif;
+}
+
+
+// for table css
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.table-th th {
+  color: orangered;
+  font-size: 18px;
+  font-family: "Philosopher", sans-serif;
+}
+
+.data-icon {
+  font-size: 21px!important;
+  line-height: 22px;
 }

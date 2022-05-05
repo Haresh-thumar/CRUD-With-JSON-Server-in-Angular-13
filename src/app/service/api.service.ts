@@ -18,4 +18,15 @@ export class ApiService {
     return this.http.get<any>("http://localhost:3000/productList/");
   }
 
+  // for put api of product data
+  putProduct(data: any, id: number){
+    return this.http.put<any>("http://localhost:3000/productList/"+id, data);
+  }
+
+  // for put api of product data
+  deleteProduct(id: number){
+    return this.http.delete<any>("http://localhost:3000/productList/"+id);
+  }
+
+
 }

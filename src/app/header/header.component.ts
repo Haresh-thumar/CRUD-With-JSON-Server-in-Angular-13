@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialog} from '@angular/material/dialog';
 import { ProductDialogComponent } from '../product-dialog/product-dialog.component';
 import { ApiService } from '../service/api.service';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-header',
@@ -10,31 +11,23 @@ import { ApiService } from '../service/api.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private dialog: MatDialog, private api: ApiService,) { }
+  constructor(private dialog: MatDialog, public api: ApiService, private dialogRef: MatDialogRef<ProductDialogComponent>) { }
 
   ngOnInit(): void {
-    this.getAllProducts();
+
   }
 
   openDialog() {
     this.dialog.open(ProductDialogComponent, {
       width: '30%',
       disableClose: true
-    });
-  }
-
-
-  // get product data method in db.json
-  getAllProducts() {
-    this.api.getProduct().subscribe({
-      next: (res) => {
-        console.log(res);
-      },
-      error: (err) => {
-        alert("Error While Fetching the Records..!!")
+    }).afterClosed().subscribe(val=>{
+      if(val === 'save'){
+        this.getAllProducts();
       }
     })
   }
+
 
 
 }
