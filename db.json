@@ -53,6 +53,51 @@
       "comment": "nokia mobile is a best mobile in india",
       "date": "2022-04-19T18:30:00.000Z",
       "id": 6
+    },
+    {
+      "productName": "paneer masala ",
+      "category": "Vegetables",
+      "freshness": "New Brand",
+      "price": 250,
+      "comment": "fresh paneer masala Vegetables bring from A+ hotel nagpur",
+      "date": "2001-02-15T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "mango",
+      "category": "Fruits",
+      "freshness": "New Brand",
+      "price": 1200,
+      "comment": "mango is summer fruit",
+      "date": "2022-05-01T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "banana",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 500,
+      "comment": "banana is healthy for leg",
+      "date": "2022-05-15T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "freeze",
+      "category": "Electronic",
+      "freshness": "Refurbished",
+      "price": 18000,
+      "comment": "freeze is refurbished, but usage is last 3 month only",
+      "date": "2022-05-25T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "vivo v15 pro",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 15000,
+      "comment": "vivo is Refurbished brand but quality is best",
+      "date": "2022-05-19T18:30:00.000Z",
+      "id": 11
     }
   ],
   "comments": [
