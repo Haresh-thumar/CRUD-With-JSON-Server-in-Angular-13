@@ -1,0 +1,24 @@
+// for set mat dialog title
+.dialog-title {
+  font-size: 25px;
+  color: orangered;
+  text-align: center;
+  margin: 0px 0 20px 0;
+}
+
+// for set input box width
+mat-form-field {
+  width: 100%;
+}
+
+// for radio button css
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 8px;
+}

@@ -1,9 +1,67 @@
 {
-  "posts": [
+  "productList": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "productName": "vivo v15",
+      "category": "Electronic",
+      "freshness": "New Brand",
+      "price": 20000,
+      "comment": "vivo is new brand for camera & perfomance",
+      "date": "2022-05-18T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "fried rice",
+      "category": "Vegetables",
+      "freshness": "New Brand",
+      "price": 340,
+      "comment": "fried rice is the best rice in India",
+      "date": "2022-05-23T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "pineapple",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 180,
+      "comment": "pineapple is my favorite fruit in my life ",
+      "date": "2022-05-17T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Samsung S30+ edge",
+      "category": "Electronic",
+      "freshness": "Refurbished",
+      "price": 50000,
+      "comment": "Samsung mobile used 21 month old & but today condition is best",
+      "date": "2022-05-26T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "potatos chips box",
+      "category": "Vegetables",
+      "freshness": "New Brand",
+      "price": 360,
+      "comment": "potatos chips is the india's famous item ",
+      "date": "2022-05-02T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Nokia",
+      "category": "Electronic",
+      "freshness": "Second Hand",
+      "price": 6500,
+      "comment": "nokia mobile is a best mobile in india",
+      "date": "2022-04-19T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "fbdnb",
+      "category": "Electronic",
+      "freshness": "New Brand",
+      "price": 259,
+      "comment": "bdfbrb",
+      "date": "2022-05-30T18:30:00.000Z",
+      "id": 7
     }
   ],
   "comments": [
