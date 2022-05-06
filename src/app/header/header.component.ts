@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog} from '@angular/material/dialog';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { ProductDialogComponent } from '../product-dialog/product-dialog.component';
 import { ApiService } from '../service/api.service';
-import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-header',
@@ -21,10 +20,8 @@ export class HeaderComponent implements OnInit {
     this.dialog.open(ProductDialogComponent, {
       width: '30%',
       disableClose: true
-    }).afterClosed().subscribe(val=>{
-      if(val === 'save'){
-        this.getAllProducts();
-      }
+    }).afterClosed().subscribe(val => {
+
     })
   }
 

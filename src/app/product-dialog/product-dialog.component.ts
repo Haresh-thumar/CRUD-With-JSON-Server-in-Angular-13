@@ -59,24 +59,23 @@ export class ProductDialogComponent implements OnInit {
           }
         })
       }
-    }else{
+    } else {
       this.updateProduct()
-    }
-    updateProduct(){
-      this.api.putProduct(this.productForm.value, this.editData.id).subscribe({
-        next(res)=>{
-          alert("Product updated Successfully");
-          this.productForm.reset();
-          this.dialogRef.close('update');
-        },
-        error:()=>{
-          alert("error while updating the record..!!");
-        }
-      })
     }
   }
 
-
+  updateProduct() {
+    this.api.putProduct(this.productForm.value, this.editData.id).subscribe({
+      next: (res) => {
+        alert("Product updated Successfully");
+        this.productForm.reset();
+        this.dialogRef.close('update');
+      },
+      error: () => {
+        alert("error while updating the record..!!");
+      }
+    })
+  }
 
 
 }
