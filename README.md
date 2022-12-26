@@ -21,15 +21,23 @@
 </ul>
 
 <h2>Project ScreenShot</h2>
-<h3></h3>
+<h3>Home Component</h3>
 
 ![image](https://user-images.githubusercontent.com/100337599/209508686-c5d1923f-f62f-479a-8129-390059ed7a1c.png)
 
+<h3>Add Product Dialog</h3>
+
 ![image](https://user-images.githubusercontent.com/100337599/209509100-9075b651-6e84-42e7-beb1-7a285b75b941.png)
+
+<h3>Edit Data Dialog</h3>
 
 ![image](https://user-images.githubusercontent.com/100337599/209509031-10670db6-7f0c-4f9f-b7a9-939e4e2ce1b1.png)
 
+<h3>Delete Alert</h3>
+
 ![image](https://user-images.githubusercontent.com/100337599/209509424-4bd82013-b85d-45df-8b69-75cad09869c1.png)
+
+<h3>Project Code</h3>
 
 ![image](https://user-images.githubusercontent.com/100337599/209509543-71bafb61-cc39-43f8-bb9e-50162c6e471c.png)
 
@@ -39,9 +47,3 @@
   <li>ng build</li>
   <li>ng serve | npm start</li>
 </ul>
-
-
-
-
-
-
