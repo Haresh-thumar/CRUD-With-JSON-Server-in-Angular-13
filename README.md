@@ -9,7 +9,7 @@
   <li>json-server --watch db.json</li>
 </ul>
 
-<h3>#using Project inside :</h3>
+<h2>#using Project inside :</h2>
 <ul>
   <li><a href="https://angular.io/cli">Angular cli 13.3.0</a></li>
   <li><a href="https://v13.material.angular.io/components/categories">Angular Material 13.3.5</a></li>
@@ -20,8 +20,8 @@
   <li>Mat-Table with Sorting, Search Filter & Pagination</li>
 </ul>
 
-<h1>Project ScreenShot</h1>
-
+<h2>Project ScreenShot</h2>
+<h3></h3>
 ![image](https://user-images.githubusercontent.com/100337599/209508686-c5d1923f-f62f-479a-8129-390059ed7a1c.png)
 
 ![image](https://user-images.githubusercontent.com/100337599/209509100-9075b651-6e84-42e7-beb1-7a285b75b941.png)
@@ -31,5 +31,16 @@
 ![image](https://user-images.githubusercontent.com/100337599/209509424-4bd82013-b85d-45df-8b69-75cad09869c1.png)
 
 ![image](https://user-images.githubusercontent.com/100337599/209509543-71bafb61-cc39-43f8-bb9e-50162c6e471c.png)
+
+
+<h2>Build & Run Project</h2>
+<ul>
+  <li>ng build</li>
+  <li>ng serve | npm start</li>
+</ul>
+
+
+
+
 
 
