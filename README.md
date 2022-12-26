@@ -1,2 +1,11 @@
 # CRUD-With-JSON-Server-in-Angular-13
-this is a angular 13 project for crud learning
+This Project For Learning 
+
+#using Project inside :
+=> Angular cli 13.3.0
+=> Angular Material 13.3.5
+=> JSON Server
+
+=> Reactive Form
+=> Services
+=> Reusable Mat-Dialog
