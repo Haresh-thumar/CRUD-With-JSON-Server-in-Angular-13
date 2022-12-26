@@ -1,5 +1,13 @@
-# CRUD-With-JSON-Server-in-Angular-13
+# CRUD-with-JSON-server-in-Angular-13
 <p>This Project For Learning Simple CRUD Operation Using JSON Server in Angular 13. </p>
+
+<h2>Install Dependencies</h2>
+<ul>
+  <li>npm install -g @angular/cli</li>
+  <li>ng add @angular/material</li>
+  <li>npm install -g json-server</li>
+  <li>json-server --watch db.json</li>
+</ul>
 
 <h3>#using Project inside :</h3>
 <ul>
@@ -11,7 +19,6 @@
   <li>Reusable Mat-Dialog</li>
   <li>Mat-Table with Sorting, Search Filter & Pagination</li>
 </ul>
-
 
 <h1>Project ScreenShot</h1>
 
