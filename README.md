@@ -9,4 +9,5 @@
   <li>Reactive Form</li>
   <li>Services</li>
   <li>Reusable Mat-Dialog</li>
+  <li>Mat-Table with Sorting, Search Filter & Pagination</li>
 </ul>
